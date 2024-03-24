@@ -5,9 +5,12 @@
  * @format
  */
 
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  Button,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -24,6 +27,14 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import AppText, {
+  AppTextType,
+  AppTextWeight,
+} from './src/components/AppText/AppText';
+import AppButton, {
+  ButtonSize,
+  ButtonType,
+} from './src/components/AppButton/AppButton';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -55,13 +66,43 @@ function Section({children, title}: SectionProps): React.JSX.Element {
   );
 }
 
-function App(): React.JSX.Element {
+const Tab = createBottomTabNavigator();
+
+function HomeScreen() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <AppText text="Home" type={AppTextType.H1} weight={AppTextWeight.bold} />
+      <View>
+        <AppButton
+          text="Button"
+          size={ButtonSize.Small}
+          type={ButtonType.Filled}
+        />
+      </View>
+      <AppButton
+        text="Button"
+        size={ButtonSize.Medium}
+        type={ButtonType.Plain}
+      />
+      <AppButton text="Button" size={ButtonSize.Large} type={ButtonType.Gray} />
+    </View>
+  );
+}
+
+function SettingsScreen() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text>Settings!</Text>
+    </View>
+  );
+}
+
+function HelpScreen() {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
-
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
@@ -93,6 +134,18 @@ function App(): React.JSX.Element {
         </View>
       </ScrollView>
     </SafeAreaView>
+  );
+}
+
+function App(): React.JSX.Element {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="Home" component={HomeScreen} />
+        <Tab.Screen name="Settings" component={SettingsScreen} />
+        <Tab.Screen name="Help" component={HelpScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
 

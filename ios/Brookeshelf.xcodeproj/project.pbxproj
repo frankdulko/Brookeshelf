@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Brookeshelf-BrookeshelfTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Brookeshelf-BrookeshelfTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0EF2ADB5FE26482FA9DF3DDA /* LinLibertine_R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385B61DBB2AB43078E09F67E /* LinLibertine_R.ttf */; };
+		19D9CD364E6248EBBB7FF291 /* LinLibertine_RB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 949156C0E2B34F359972DE59 /* LinLibertine_RB.ttf */; };
+		02101FB971244B1FB7C07A26 /* LinLibertine_RBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C922943229B476F98DE063C /* LinLibertine_RBI.ttf */; };
+		7EE89DF7DEB5472885763C3E /* LinLibertine_RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 954359CF4B24475A9BCF8B29 /* LinLibertine_RI.ttf */; };
+		8902CC3DF7B44D72B31F5C84 /* LinLibertine_RZ.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2FC1EE0ED246A4A41D8FF8 /* LinLibertine_RZ.ttf */; };
+		16B4AA519AD840B5AFBD4A73 /* LinLibertine_RZI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C190DA6664B4C25B81D5DDC /* LinLibertine_RZI.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Brookeshelf/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Brookeshelf-BrookeshelfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brookeshelf-BrookeshelfTests.release.xcconfig"; path = "Target Support Files/Pods-Brookeshelf-BrookeshelfTests/Pods-Brookeshelf-BrookeshelfTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		385B61DBB2AB43078E09F67E /* LinLibertine_R.ttf */ = {isa = PBXFileReference; name = "LinLibertine_R.ttf"; path = "../src/assets/fonts/LinLibertine_R.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		949156C0E2B34F359972DE59 /* LinLibertine_RB.ttf */ = {isa = PBXFileReference; name = "LinLibertine_RB.ttf"; path = "../src/assets/fonts/LinLibertine_RB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C922943229B476F98DE063C /* LinLibertine_RBI.ttf */ = {isa = PBXFileReference; name = "LinLibertine_RBI.ttf"; path = "../src/assets/fonts/LinLibertine_RBI.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		954359CF4B24475A9BCF8B29 /* LinLibertine_RI.ttf */ = {isa = PBXFileReference; name = "LinLibertine_RI.ttf"; path = "../src/assets/fonts/LinLibertine_RI.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD2FC1EE0ED246A4A41D8FF8 /* LinLibertine_RZ.ttf */ = {isa = PBXFileReference; name = "LinLibertine_RZ.ttf"; path = "../src/assets/fonts/LinLibertine_RZ.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C190DA6664B4C25B81D5DDC /* LinLibertine_RZI.ttf */ = {isa = PBXFileReference; name = "LinLibertine_RZI.ttf"; path = "../src/assets/fonts/LinLibertine_RZI.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E76C2F426D174221934A028F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +160,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		E76C2F426D174221934A028F /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				385B61DBB2AB43078E09F67E /* LinLibertine_R.ttf */,
+				949156C0E2B34F359972DE59 /* LinLibertine_RB.ttf */,
+				1C922943229B476F98DE063C /* LinLibertine_RBI.ttf */,
+				954359CF4B24475A9BCF8B29 /* LinLibertine_RI.ttf */,
+				FD2FC1EE0ED246A4A41D8FF8 /* LinLibertine_RZ.ttf */,
+				9C190DA6664B4C25B81D5DDC /* LinLibertine_RZI.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +270,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0EF2ADB5FE26482FA9DF3DDA /* LinLibertine_R.ttf in Resources */,
+				19D9CD364E6248EBBB7FF291 /* LinLibertine_RB.ttf in Resources */,
+				02101FB971244B1FB7C07A26 /* LinLibertine_RBI.ttf in Resources */,
+				7EE89DF7DEB5472885763C3E /* LinLibertine_RI.ttf in Resources */,
+				8902CC3DF7B44D72B31F5C84 /* LinLibertine_RZ.ttf in Resources */,
+				16B4AA519AD840B5AFBD4A73 /* LinLibertine_RZI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

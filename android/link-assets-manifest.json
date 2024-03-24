@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/LinLibertine_R.ttf",
+      "sha1": "0c22c0dfe063dcab046e5094fe6c4510b3be9483"
+    },
+    {
+      "path": "src/assets/fonts/LinLibertine_RB.ttf",
+      "sha1": "5dc088e97bbb3cfcf9ecf68b5d6d905f75ecf94f"
+    },
+    {
+      "path": "src/assets/fonts/LinLibertine_RBI.ttf",
+      "sha1": "27d5d6a4dbe0738184716be3bca3d2fc71e6f538"
+    },
+    {
+      "path": "src/assets/fonts/LinLibertine_RI.ttf",
+      "sha1": "08b973362cf7625f7ecf81060e5d4dca8182e08a"
+    },
+    {
+      "path": "src/assets/fonts/LinLibertine_RZ.ttf",
+      "sha1": "3a047e41526c9123572bc55d9c7866397429b1ee"
+    },
+    {
+      "path": "src/assets/fonts/LinLibertine_RZI.ttf",
+      "sha1": "b57f89ca2f821d92fe866bc2e0757c8b2a0407e4"
+    }
+  ]
+}
